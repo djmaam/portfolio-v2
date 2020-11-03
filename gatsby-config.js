@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `djmaam`,
-    description: `Marcos Arrieta's portfolio, front-end developer`,
+    title: `Marcos Arrieta`,
+    description: `Marcos Arrieta's portfolio, Mobile developer`,
     author: `@djmaam`,
     pathPrefix: "/portfolio-v2",
   },

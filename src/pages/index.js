@@ -14,7 +14,7 @@ import avatar from "../images/avatar.svg"
 import hoverAvatar from "../images/hover_avatar.svg"
 
 const Container = styled.div`
-  background-color: ${props => (props.darkBackground ? "#65C9FF" : "white")};
+  background-color: ${props => (props.darkBackground ? "#5199E4" : "white")};
   margin: 0 auto;
   min-height: ${props => (props.darkBackground ? "34rem" : "46rem")};
   padding: 2rem;
@@ -204,7 +204,7 @@ const IndexPage = ({ location: { pathname } }) => {
         <Wrapper>
           <Title> {TitleText} </Title>
           <Subtitle>
-            I'm a Web Developer, passionate about what I do, and always learning
+            I'm a Software Developer, passionate about what I do, and always learning
             something new.
           </Subtitle>
           <Avatar />
@@ -216,11 +216,11 @@ const IndexPage = ({ location: { pathname } }) => {
       <CenteredContainer darkBackground>
         <CenteredWrapper>
           <SectionTitle colored>
-            Hi, I'm Santiago. Pleasure to meet you.
+            Hi, I'm Marcos. Pleasure to meet you.
           </SectionTitle>
           <SectionText colored>
-            Coming from Barranquilla, Colombia, I started my journey as a
-            developer in 2018. I have special interest in front-end and mobile
+            Coming from Barquisimeto, Venezuela, I started my journey as a
+            developer in 2019. I have special interest in back-end and mobile
             development, where I have worked most of my projects and
             potentialized my skills. A fan of learning and interacting with new
             technologies, these are the skills I have learned and improved
@@ -237,13 +237,13 @@ const IndexPage = ({ location: { pathname } }) => {
               </CardIcon>
               <CardTitle>Mobile Development</CardTitle>
               <CardText>
-                I have crossed ways with this path a couple of times. I'm very
-                curious about this path and looking forward to digging into it.
+                My main path, I've worked mostly as a mobile developer and I'm
+                loving it. I like to bring ideas to life on the phone.
               </CardText>
               <CardText colored>
                 Languages & tools I've learned and used:
               </CardText>
-              <CardText>JavaScript, React Native, Expo, Cordova</CardText>
+              <CardText>JavaScript,Java, React Native, Expo, Cordova, Android Studio</CardText>
             </CardColumn>
             <CardColumn>
               <CardIcon>
@@ -251,15 +251,15 @@ const IndexPage = ({ location: { pathname } }) => {
               </CardIcon>
               <CardTitle>Frontend Development</CardTitle>
               <CardText>
-                My main path, I've worked mostly as a frontend developer and I'm
-                loving it. I like to bring ideas to life in the browser.
+              I have crossed ways with this path a couple of times. I'm very
+                curious about this path and looking forward to digging into it.
               </CardText>
               <CardText colored>
                 Languages & tools I've learned and used:
               </CardText>
               <CardText>
                 HTML5, CSS3, Sass, BEM, JavaScript, JQuery, ReactJs, Redux,
-                GatsbyJs, Shopify
+                GatsbyJs, Shopify, PHP, Laravel
               </CardText>
             </CardColumn>
             <CardColumn lastColumn>
@@ -275,8 +275,8 @@ const IndexPage = ({ location: { pathname } }) => {
                 Languages & tools I've learned and used:
               </CardText>
               <CardText>
-                Terminal, Git, Github, Ruby, Ruby on Rails, JavaScript, NodeJs,
-                ExpressJs, Python, Django, MongoDB, PostgreSQL.
+                Terminal, Git, Github, JavaScript, NodeJs,
+                ExpressJs, Python, Django, PHP, Laravel, MongoDB, MySQL, PostgreSQL.
               </CardText>
             </CardColumn>
           </Card>
@@ -297,7 +297,7 @@ const IndexPage = ({ location: { pathname } }) => {
               <SubsectionText>Or download a summary of my work</SubsectionText>
               <ButtonWrapper>
                 <a
-                  href="https://docs.google.com/document/d/1gNzzFDvFDE_7reufsQt8Oqi4ozO_--AHzdryvmtXcXA/export?format=pdf"
+                  href=""
                   target="_blank"
                   rel="noreferrer"
                   style={{ margin: "0 auto" }}
