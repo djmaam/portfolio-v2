@@ -7,16 +7,12 @@ import { GoTools } from "react-icons/go"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import HorusSC from "../images/companies/horus-sc.svg"
-import ElaSustentable from "../images/companies/ela-sustentable.png"
-import SimpleLegal from "../images/companies/simple-legal.jpg"
-import Colorbeats from "../images/companies/colorbeats.png"
-import Koombea from "../images/companies/koombea.png"
-import Powerpay from "../images/companies/powerpay.png"
-import Zemoga from "../images/companies/zemoga-logo-grey.png"
+import Ucosmos from "../images/companies/ucosmos-logo.webp"
+import DePC from "../images/companies/DePC-logo.jpg"
 
-import HorusHotel from "../images/projects/horushotel.png"
-import Shopylive from "../images/projects/shopylive.png"
+import Hashme from "../images/projects/hashme-logo.png"
+import Demedis from "../images/projects/demedis-logo.png"
+import MJM from "../images/projects/MJM-logo.png"
 
 const Container = styled.div`
   background-color: white;
@@ -152,136 +148,70 @@ const About = ({ location: { pathname } }) => {
             <Project>
               <ProjectImg>
                 <img
-                  alt="Horus Hotel"
-                  src={HorusHotel}
+                  alt="Hashme"
+                  src={Hashme}
                   style={{ margin: 0, maxHeight: 105 }}
                 />
               </ProjectImg>
               <ProjectDescription>
-                <li>Mobile application using Apache Cordova and Laravel.</li>
+                <li>Mobile application using React Native and Node.js.</li>
                 <li>
-                  Connection to Firebase for push notifications and deployed on
-                  Google Cloud.
+                  Connection to Facebook SDK's for Instagram metrics, with MongoDB and deployed on
+                  AWS.
                 </li>
               </ProjectDescription>
               <ProjectLink>
                 <a
-                  href="https://www.horus-sc.com"
+                  href="https://www.hashme.com"
                   rel="noreferrer"
                   target="_blank"
                   style={{ textDecoration: "none", color: "#65C9FF" }}
                 >
-                  www.horus-sc.com
+                  www.hashme.com
                 </a>
               </ProjectLink>
             </Project>
             <Project>
               <ProjectImg>
                 <img
-                  alt="Shopylive"
-                  src={Shopylive}
+                  alt="Demedis"
+                  src={Demedis}
                   style={{ margin: 0, maxHeight: 105 }}
                 />
               </ProjectImg>
               <ProjectDescription>
-                <li>Mobile application using React Native and NodeJs.</li>
-                <li>Sync with Firebase for OAuth and push notifications.</li>
+                <li>Mobile application using React Native and Laravel.</li>
+                <li>
+                  Firebase Kit and Laravel for Real time database, auth and cloud functions.
+                </li>
               </ProjectDescription>
               <ProjectLink>
                 <a
-                  href="https://www.shopylive.com"
+                  href="https://www.demedis.io"
                   rel="noreferrer"
                   target="_blank"
                   style={{ textDecoration: "none", color: "#65C9FF" }}
                 >
-                  www.shopylive.com
+                  www.demedis.io
                 </a>
               </ProjectLink>
             </Project>
             <Project>
               <ProjectImg>
                 <img
-                  alt="SimpleLegal"
-                  src={SimpleLegal}
+                  alt="MJM"
+                  src={MJM}
                   style={{ margin: 0, maxHeight: 105 }}
                 />
               </ProjectImg>
               <ProjectDescription>
-                <li>Single page application using ReactJS.</li>
+                <li>Mobile application using React Native and Laravel.</li>
                 <li>
-                  Firebase Kit for Real time database, auth and cloud functions.
+                  Laravel for database, auth and cloud functions.
                 </li>
               </ProjectDescription>
               <ProjectLink disabled>
                 In development <GoTools />{" "}
-              </ProjectLink>
-            </Project>
-            <Project>
-              <ProjectImg>
-                <img
-                  alt="ElaSustentable"
-                  src={ElaSustentable}
-                  style={{ margin: 0, maxHeight: 105 }}
-                />
-              </ProjectImg>
-              <ProjectDescription>
-                <li>Single page application using ReactJS.</li>
-                <li>Django & Django rest framework for Rest API.</li>
-              </ProjectDescription>
-              <ProjectLink>
-                <a
-                  href="https://www.elasustentable.com"
-                  rel="noreferrer"
-                  target="_blank"
-                  style={{ textDecoration: "none", color: "#65C9FF" }}
-                >
-                  www.elasustentable.com
-                </a>
-              </ProjectLink>
-            </Project>
-            <Project>
-              <ProjectImg>
-                <img
-                  alt="Colorbeats"
-                  src={Colorbeats}
-                  style={{ margin: 0, maxHeight: 105 }}
-                />
-              </ProjectImg>
-              <ProjectDescription>
-                E-Commerce webpage using Shopify.
-              </ProjectDescription>
-              <ProjectLink>
-                <a
-                  href="https://www.colorbeats.co"
-                  rel="noreferrer"
-                  target="_blank"
-                  style={{ textDecoration: "none", color: "#65C9FF" }}
-                >
-                  www.colorbeats.co
-                </a>
-              </ProjectLink>
-            </Project>
-            <Project>
-              <ProjectImg>
-                <img
-                  alt="Powerpay"
-                  src={Powerpay}
-                  style={{ margin: 0, maxHeight: 105 }}
-                />
-              </ProjectImg>
-              <ProjectDescription>
-                <li>Single page application using ReactJS.</li>
-                <li>REST API developed using Ruby on Rails.</li>
-              </ProjectDescription>
-              <ProjectLink>
-                <a
-                  href="https://www.getpowerpay.com"
-                  rel="noreferrer"
-                  target="_blank"
-                  style={{ textDecoration: "none", color: "#65C9FF" }}
-                >
-                  www.getpowerpay.com
-                </a>
               </ProjectLink>
             </Project>
           </ProjectsList>
@@ -294,43 +224,15 @@ const About = ({ location: { pathname } }) => {
           <CompaniesList>
             <Company>
               <img
-                alt="Horus Smart Control"
-                src={HorusSC}
+                alt="Ucomos"
+                src={Ucosmos}
                 style={{ margin: 0, height: 125 }}
               />
             </Company>
             <Company>
               <img
-                alt="Ela Sustentable"
-                src={ElaSustentable}
-                style={{ margin: 0, maxHeight: 125 }}
-              />
-            </Company>
-            <Company>
-              <img
-                alt="Simple Legal"
-                src={SimpleLegal}
-                style={{ margin: 0, maxHeight: 125 }}
-              />
-            </Company>
-            <Company>
-              <img
-                alt="Colorbeats"
-                src={Colorbeats}
-                style={{ margin: 0, maxHeight: 125 }}
-              />
-            </Company>
-            <Company>
-              <img
-                alt="Koombea"
-                src={Koombea}
-                style={{ margin: 0, maxHeight: 125 }}
-              />
-            </Company>
-            <Company>
-              <img
-                alt="Zemoga"
-                src={Zemoga}
+                alt="DePC Suite"
+                src={DePC}
                 style={{ margin: 0, maxHeight: 125 }}
               />
             </Company>
