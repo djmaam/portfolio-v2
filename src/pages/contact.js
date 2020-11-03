@@ -111,7 +111,7 @@ const Contact = ({ location: { pathname } }) => {
     formData.append("message", message)
 
     const request = new Request(
-      "https://getform.io/f/0d454f78-7045-41e8-ba8a-bb98a2f03203"
+      "https://getform.io/f/b413c32e-ba66-42ed-987e-4febd5e0c316"
     )
     const data = {
       method: "POST",
@@ -123,7 +123,7 @@ const Contact = ({ location: { pathname } }) => {
 
     fetch(request, data)
       .then(response => {
-        window.location.replace("https://dsantiagomj.dev/success")
+        window.location.replace("https://marcosarrieta.netlify.app/success")
       })
       .catch(e => console.error(e))
   }
