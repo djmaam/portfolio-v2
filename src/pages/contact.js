@@ -123,7 +123,7 @@ const Contact = ({ location: { pathname } }) => {
 
     fetch(request, data)
       .then(response => {
-        window.location.replace("https://marcosarrieta.netlify.app/success")
+        window.location.replace("https://marcosarrieta.dev/success")
       })
       .catch(e => console.error(e))
   }

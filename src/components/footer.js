@@ -194,7 +194,7 @@ const Footer = ({ location }) => {
             </Icon>
           </ListItem>
         </a>
-        <a href="https://marcosarrieta.netlify.app/contact" rel="noreferrer">
+        <a href="https://marcosarrieta.dev/contact" rel="noreferrer">
           <ListItem>
             <Icon>
               <AiOutlineMail />
