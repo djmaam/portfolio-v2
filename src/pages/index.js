@@ -297,7 +297,7 @@ const IndexPage = ({ location: { pathname } }) => {
               <SubsectionText>Or download a summary of my work</SubsectionText>
               <ButtonWrapper>
                 <a
-                  href=""
+                  href="https://drive.google.com/uc?id=11N91Vgg054uqLFqRDIL4WQkYGo_do9AF&export=download&authuser=0"
                   target="_blank"
                   rel="noreferrer"
                   style={{ margin: "0 auto" }}
