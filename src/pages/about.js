@@ -12,6 +12,7 @@ import DePC from "../images/companies/DePC-logo.jpg"
 
 import Hashme from "../images/projects/hashme-logo.png"
 import Demedis from "../images/projects/demedis-logo.png"
+import Ushuaia from "../images/projects/masushuaia-logo.png"
 import MJM from "../images/projects/MJM-logo.png"
 
 const Container = styled.div`
@@ -156,7 +157,7 @@ const About = ({ location: { pathname } }) => {
               <ProjectDescription>
                 <li>Mobile application using React Native and Node.js.</li>
                 <li>
-                  Connection to Facebook SDK's for Instagram metrics, with MongoDB and deployed on
+                  Connection to Facebook SDK's for Instagram metrics, with MongoDB for database, Claudinary for storage and deployed on
                   AWS.
                 </li>
               </ProjectDescription>
@@ -180,9 +181,9 @@ const About = ({ location: { pathname } }) => {
                 />
               </ProjectImg>
               <ProjectDescription>
-                <li>Mobile application using React Native and Laravel.</li>
+                <li>Mobile application's using React Native and Laravel.</li>
                 <li>
-                  Firebase Kit and Laravel for Real time database, auth and cloud functions.
+                  Firebase Kit and MySQL for Real time database, Laravel for dashboard, auth and cloud functions.
                 </li>
               </ProjectDescription>
               <ProjectLink>
@@ -207,11 +208,36 @@ const About = ({ location: { pathname } }) => {
               <ProjectDescription>
                 <li>Mobile application using React Native and Laravel.</li>
                 <li>
-                  Laravel for database, auth and cloud functions.
+                  MariaDB for database, Laravel for dashboard, auth and cloud functions.
                 </li>
               </ProjectDescription>
               <ProjectLink disabled>
                 In development <GoTools />{" "}
+              </ProjectLink>
+            </Project>
+            <Project>
+              <ProjectImg>
+                <img
+                  alt="+Ushuaia"
+                  src={Ushuaia}
+                  style={{ margin: 0, maxHeight: 105 }}
+                />
+              </ProjectImg>
+              <ProjectDescription>
+                <li>Mobile application's using React Native and Laravel.</li>
+                <li>
+                  MariaDB for database, Laravel for dashboard, auth and cloud functions.
+                </li>
+              </ProjectDescription>
+              <ProjectLink>
+                <a
+                  href="https://masushuaia.com"
+                  rel="noreferrer"
+                  target="_blank"
+                  style={{ textDecoration: "none", color: "#65C9FF" }}
+                >
+                  www.masushuaia.com
+                </a>
               </ProjectLink>
             </Project>
           </ProjectsList>

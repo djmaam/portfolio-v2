@@ -1,9 +1,9 @@
 {
   "name": "portfolio-v2",
   "private": true,
-  "description": "Portfolio for Dsantiagomj develop on GatsbyJS",
+  "description": "Portfolio for Djmaam develop on GatsbyJS",
   "version": "0.1.0",
-  "author": "Daniel Santiago Muñoz <dsantiagomjle@gmail.com>",
+  "author": "Marcos Antonio Arrieta Marquez <marcosarrietaarg@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.21.37",
