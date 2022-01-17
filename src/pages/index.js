@@ -243,7 +243,10 @@ const IndexPage = ({ location: { pathname } }) => {
               <CardText colored>
                 Languages & tools I've learned and used:
               </CardText>
-              <CardText>JavaScript,Java, React Native, Expo, Cordova, Android Studio</CardText>
+              <CardText>
+                React Native, Expo, Cordova, Firebase, FBSDK, Fastlane, 
+                Java, Kotlin, Android Studio, Xcode, Swift
+              </CardText>
             </CardColumn>
             <CardColumn>
               <CardIcon>
@@ -258,8 +261,8 @@ const IndexPage = ({ location: { pathname } }) => {
                 Languages & tools I've learned and used:
               </CardText>
               <CardText>
-                HTML5, CSS3, Sass, BEM, JavaScript, JQuery, ReactJs, Redux,
-                GatsbyJs, Shopify, PHP, Laravel
+                HTML5, CSS3, Sass, BEM, JQuery, ReactJs, Redux,
+                GatsbyJs, Shopify, PHP, Laravel, WordPress
               </CardText>
             </CardColumn>
             <CardColumn lastColumn>
@@ -275,8 +278,8 @@ const IndexPage = ({ location: { pathname } }) => {
                 Languages & tools I've learned and used:
               </CardText>
               <CardText>
-                Terminal, Git, Github, JavaScript, NodeJs,
-                ExpressJs, Python, Django, PHP, Laravel, MongoDB, MySQL, PostgreSQL.
+                JavaScript, TypeScript, Terminal, Git, Github, NodeJs, GraphQL,
+                ExpressJs, Python, Django, PHP, Laravel, MongoDB, MySQL, PostgreSQL
               </CardText>
             </CardColumn>
           </Card>

@@ -9,11 +9,13 @@ import SEO from "../components/seo"
 
 import Ucosmos from "../images/companies/ucosmos-logo.webp"
 import DePC from "../images/companies/DePC-logo.jpg"
+import AgroPro from "../images/companies/AgroPro-logo.jpg"
 
 import Hashme from "../images/projects/hashme-logo.png"
 import Demedis from "../images/projects/demedis-logo.png"
 import Ushuaia from "../images/projects/masushuaia-logo.png"
 import MJM from "../images/projects/MJM-logo.png"
+import AgroProApp from "../images/projects/AgroPro-logo.jpg"
 
 const Container = styled.div`
   background-color: white;
@@ -240,6 +242,31 @@ const About = ({ location: { pathname } }) => {
                 </a>
               </ProjectLink>
             </Project>
+            <Project>
+              <ProjectImg>
+                <img
+                  alt="AgroPro"
+                  src={AgroProApp}
+                  style={{ margin: 0, maxHeight: 105 }}
+                />
+              </ProjectImg>
+              <ProjectDescription>
+                <li>Mobile & Web application's using React Native and ReactJs.</li>
+                <li>
+                  PostgreSQL, MongoDB & GraphQL for database, Laravel, Node and Python for Backend, auth and cloud functions.
+                </li>
+              </ProjectDescription>
+              <ProjectLink>
+                <a
+                  href="https://agropro.ag"
+                  rel="noreferrer"
+                  target="_blank"
+                  style={{ textDecoration: "none", color: "#65C9FF" }}
+                >
+                  www.agropro.ag
+                </a>
+              </ProjectLink>
+            </Project>
           </ProjectsList>
         </Wrapper>
         <Divider />
@@ -259,6 +286,13 @@ const About = ({ location: { pathname } }) => {
               <img
                 alt="DePC Suite"
                 src={DePC}
+                style={{ margin: 0, maxHeight: 125 }}
+              />
+            </Company>
+            <Company>
+              <img
+                alt="AgroPro"
+                src={AgroPro}
                 style={{ margin: 0, maxHeight: 125 }}
               />
             </Company>
