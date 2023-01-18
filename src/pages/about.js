@@ -10,12 +10,14 @@ import SEO from "../components/seo"
 import Ucosmos from "../images/companies/ucosmos-logo.webp"
 import DePC from "../images/companies/DePC-logo.jpg"
 import AgroPro from "../images/companies/AgroPro-logo.jpg"
+import Telecentro from "../images/companies/Telecentro-logo.png"
 
 import Hashme from "../images/projects/hashme-logo.png"
 import Demedis from "../images/projects/demedis-logo.png"
 import Ushuaia from "../images/projects/masushuaia-logo.png"
 import MJM from "../images/projects/MJM-logo.png"
 import AgroProApp from "../images/projects/AgroPro-logo.jpg"
+import Tplay from "../images/projects/Tplay-logo.png"
 
 const Container = styled.div`
   background-color: white;
@@ -119,7 +121,7 @@ const CompaniesList = styled.div`
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 0 auto;
-  max-width: 50rem;
+  max-width: 55rem;
   padding: 5rem 1rem 15rem;
 `
 
@@ -148,6 +150,99 @@ const About = ({ location: { pathname } }) => {
             </Link>
           </SectionSubtitle>
           <ProjectsList>
+            <Project>
+              <ProjectImg>
+                <img
+                  alt="Tplay"
+                  src={Tplay}
+                  style={{ margin: 0, maxHeight: 105 }}
+                />
+              </ProjectImg>
+              <ProjectDescription>
+                <li>Mobile, Web, Android TV, Tizen, WebOS & VIDAA OS application's using Vue.js and Cordova.</li>
+                <li>
+                  Node for Backend, auth and cloud functions, Grafana Faro, Google Analytics.
+                </li>
+              </ProjectDescription>
+              <ProjectLink>
+                <a
+                  href="https://telecentro.com.ar/"
+                  rel="noreferrer"
+                  target="_blank"
+                  style={{ textDecoration: "none", color: "#65C9FF" }}
+                >
+                  www.telecentro.com.ar
+                </a>
+              </ProjectLink>
+            </Project>
+            <Project>
+              <ProjectImg>
+                <img
+                  alt="AgroPro"
+                  src={AgroProApp}
+                  style={{ margin: 0, maxHeight: 105 }}
+                />
+              </ProjectImg>
+              <ProjectDescription>
+                <li>Mobile & Web application's using React Native and ReactJs.</li>
+                <li>
+                  PostgreSQL, MongoDB & GraphQL for database, Laravel, Node and Python for Backend, auth and cloud functions.
+                </li>
+              </ProjectDescription>
+              <ProjectLink>
+                <a
+                  href="https://agropro.ag"
+                  rel="noreferrer"
+                  target="_blank"
+                  style={{ textDecoration: "none", color: "#65C9FF" }}
+                >
+                  www.agropro.ag
+                </a>
+              </ProjectLink>
+            </Project>
+            <Project>
+              <ProjectImg>
+                <img
+                  alt="MJM"
+                  src={MJM}
+                  style={{ margin: 0, maxHeight: 105 }}
+                />
+              </ProjectImg>
+              <ProjectDescription>
+                <li>Mobile application using React Native and Laravel.</li>
+                <li>
+                  MariaDB for database, Laravel for dashboard, auth and cloud functions.
+                </li>
+              </ProjectDescription>
+              <ProjectLink disabled>
+                In development <GoTools />{" "}
+              </ProjectLink>
+            </Project>
+            <Project>
+              <ProjectImg>
+                <img
+                  alt="+Ushuaia"
+                  src={Ushuaia}
+                  style={{ margin: 0, maxHeight: 105 }}
+                />
+              </ProjectImg>
+              <ProjectDescription>
+                <li>Mobile application's using React Native and Laravel.</li>
+                <li>
+                  MariaDB for database, Laravel for dashboard, auth and cloud functions.
+                </li>
+              </ProjectDescription>
+              <ProjectLink>
+                <a
+                  href="https://masushuaia.com"
+                  rel="noreferrer"
+                  target="_blank"
+                  style={{ textDecoration: "none", color: "#65C9FF" }}
+                >
+                  www.masushuaia.com
+                </a>
+              </ProjectLink>
+            </Project>
             <Project>
               <ProjectImg>
                 <img
@@ -199,74 +294,6 @@ const About = ({ location: { pathname } }) => {
                 </a>
               </ProjectLink>
             </Project>
-            <Project>
-              <ProjectImg>
-                <img
-                  alt="MJM"
-                  src={MJM}
-                  style={{ margin: 0, maxHeight: 105 }}
-                />
-              </ProjectImg>
-              <ProjectDescription>
-                <li>Mobile application using React Native and Laravel.</li>
-                <li>
-                  MariaDB for database, Laravel for dashboard, auth and cloud functions.
-                </li>
-              </ProjectDescription>
-              <ProjectLink disabled>
-                In development <GoTools />{" "}
-              </ProjectLink>
-            </Project>
-            <Project>
-              <ProjectImg>
-                <img
-                  alt="+Ushuaia"
-                  src={Ushuaia}
-                  style={{ margin: 0, maxHeight: 105 }}
-                />
-              </ProjectImg>
-              <ProjectDescription>
-                <li>Mobile application's using React Native and Laravel.</li>
-                <li>
-                  MariaDB for database, Laravel for dashboard, auth and cloud functions.
-                </li>
-              </ProjectDescription>
-              <ProjectLink>
-                <a
-                  href="https://masushuaia.com"
-                  rel="noreferrer"
-                  target="_blank"
-                  style={{ textDecoration: "none", color: "#65C9FF" }}
-                >
-                  www.masushuaia.com
-                </a>
-              </ProjectLink>
-            </Project>
-            <Project>
-              <ProjectImg>
-                <img
-                  alt="AgroPro"
-                  src={AgroProApp}
-                  style={{ margin: 0, maxHeight: 105 }}
-                />
-              </ProjectImg>
-              <ProjectDescription>
-                <li>Mobile & Web application's using React Native and ReactJs.</li>
-                <li>
-                  PostgreSQL, MongoDB & GraphQL for database, Laravel, Node and Python for Backend, auth and cloud functions.
-                </li>
-              </ProjectDescription>
-              <ProjectLink>
-                <a
-                  href="https://agropro.ag"
-                  rel="noreferrer"
-                  target="_blank"
-                  style={{ textDecoration: "none", color: "#65C9FF" }}
-                >
-                  www.agropro.ag
-                </a>
-              </ProjectLink>
-            </Project>
           </ProjectsList>
         </Wrapper>
         <Divider />
@@ -277,9 +304,16 @@ const About = ({ location: { pathname } }) => {
           <CompaniesList>
             <Company>
               <img
-                alt="Ucomos"
-                src={Ucosmos}
-                style={{ margin: 0, height: 125 }}
+                alt="Telecentro"
+                src={Telecentro}
+                style={{ margin: 0, maxHeight: 125 }}
+              />
+            </Company>
+            <Company>
+              <img
+                alt="AgroPro"
+                src={AgroPro}
+                style={{ margin: 0, maxHeight: 125 }}
               />
             </Company>
             <Company>
@@ -291,9 +325,9 @@ const About = ({ location: { pathname } }) => {
             </Company>
             <Company>
               <img
-                alt="AgroPro"
-                src={AgroPro}
-                style={{ margin: 0, maxHeight: 125 }}
+                alt="Ucomos"
+                src={Ucosmos}
+                style={{ margin: 0, height: 125 }}
               />
             </Company>
           </CompaniesList>

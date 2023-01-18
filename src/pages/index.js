@@ -261,7 +261,7 @@ const IndexPage = ({ location: { pathname } }) => {
                 Languages & tools I've learned and used:
               </CardText>
               <CardText>
-                HTML5, CSS3, Sass, BEM, JQuery, ReactJs, Redux,
+                HTML5, CSS3, Sass, BEM, JQuery, VueJs, ReactJs, Redux,
                 GatsbyJs, Shopify, PHP, Laravel, WordPress
               </CardText>
             </CardColumn>
@@ -300,7 +300,7 @@ const IndexPage = ({ location: { pathname } }) => {
               <SubsectionText>Or download a summary of my work</SubsectionText>
               <ButtonWrapper>
                 <a
-                  href="https://drive.google.com/uc?id=1HvEmmC2YBEiDg8se9ekK_IScQaEFsqKc&export=download"
+                  href="https://drive.google.com/uc?id=1N7HK7kHp2nPEy0c3pmpUTk_ACWTOSml-&export=download"
                   target="_blank"
                   rel="noreferrer"
                   style={{ margin: "0 auto" }}
