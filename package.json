@@ -31,13 +31,13 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby build",
-    "develop": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby develop",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
-    "serve": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby serve",
-    "clean": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby clean",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
