@@ -11,6 +11,7 @@ import Ucosmos from "../images/companies/ucosmos-logo.webp"
 import DePC from "../images/companies/DePC-logo.jpg"
 import AgroPro from "../images/companies/AgroPro-logo.jpg"
 import Telecentro from "../images/companies/Telecentro-logo.png"
+import Nera from "../images/companies/Nera-logo.svg"
 
 import Hashme from "../images/projects/hashme-logo.png"
 import Demedis from "../images/projects/demedis-logo.png"
@@ -18,6 +19,7 @@ import Ushuaia from "../images/projects/masushuaia-logo.png"
 import MJM from "../images/projects/MJM-logo.png"
 import AgroProApp from "../images/projects/AgroPro-logo.jpg"
 import Tplay from "../images/projects/Tplay-logo.png"
+import NeraApp from "../images/projects/Nera-logo.svg"
 
 const Container = styled.div`
   background-color: white;
@@ -150,6 +152,31 @@ const About = ({ location: { pathname } }) => {
             </Link>
           </SectionSubtitle>
           <ProjectsList>
+            <Project>
+              <ProjectImg>
+                <img
+                  alt="Nera"
+                  src={NeraApp}
+                  style={{ margin: 0, maxHeight: 105 }}
+                />
+              </ProjectImg>
+              <ProjectDescription>
+                <li>Mobile & Web application's using Next.js & React Native.</li>
+                <li>
+                  Node & NestJS for Backend, auth and cloud functions, Firebase, Google Analytics.
+                </li>
+              </ProjectDescription>
+              <ProjectLink>
+                <a
+                  href="https://nera-agro.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                  style={{ textDecoration: "none", color: "#65C9FF" }}
+                >
+                  www.nera-agro.com
+                </a>
+              </ProjectLink>
+            </Project>
             <Project>
               <ProjectImg>
                 <img
@@ -302,6 +329,13 @@ const About = ({ location: { pathname } }) => {
             I'm proud to have collaborated with some awesome companies:
           </SectionTitle>
           <CompaniesList>
+            <Company>
+              <img
+                alt="Nera"
+                src={Nera}
+                style={{ margin: 0, maxHeight: 125 }}
+              />
+            </Company>
             <Company>
               <img
                 alt="Telecentro"
