@@ -3,3 +3,7 @@
 [build]
   command = "echo redirect-only"
   publish = "redirect"
+
+# The Lighthouse plugin enabled in the Netlify UI refuses Node >= 20.
+[build.environment]
+  NODE_VERSION = "18"
