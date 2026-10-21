@@ -1,0 +1,5 @@
+# The site moved to https://marcosarrieta.dev (portfolio-v3). This repo now only
+# deploys a 301 for every path, so old links and search results land there.
+[build]
+  command = "echo redirect-only"
+  publish = "redirect"
